@@ -1,0 +1,28 @@
+theme = catppuccin-frappe.conf
+macos-titlebar-style = tabs
+keybind = super+[=previous_tab
+keybind = super+]=next_tab
+keybind = super+shift+]=move_tab:1
+keybind = super+shift+[=move_tab:-1
+keybind = super+control+]=resize_split:right,70
+keybind = super+control+[=resize_split:left,70
+
+# 2. Font settings
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+
+# 3. Padding (top, right, bottom, left)
+window-padding-x = 10
+window-padding-y = 0,10
+
+# 4. Transparency
+background-opacity = 0.98
+
+# 8. Working directory behavior
+working-directory = /Users/milan/Code
+
+# 9. Window decoration and sizing
+window-width = 130
+window-height = 40
+
+keybind = shift+enter=text:\n
